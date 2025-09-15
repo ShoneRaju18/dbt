@@ -5,9 +5,9 @@ snowflake:
       database: SNOWFLAKE_LEARNING_DB
       password: LeasingVertical@123*
       role: SNOWFLAKE_LEARNING_ROLE
-      schema: LV_INTRO_TO_DATA_TRANSFORMATIONS
+      schema: SOURCE
       threads: 1
       type: snowflake
       user: dbtuser
-      warehouse: COMPUTE_WH
+      warehouse: SNOWFLAKE_LEARNING_WH
   target: dev
